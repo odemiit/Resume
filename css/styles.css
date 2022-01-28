@@ -27,10 +27,11 @@ h3 {
 }
 
 hr {
-    border: 5px dotted;
+    border: 6px dotted;
     border-color: #eaf6f6;
-    border-style: none none dotted;
+    border-bottom: none;
     width: 5%;
+    margin: 100px auto;
 }
 
 p{
@@ -39,6 +40,13 @@ p{
 
 a {
     color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
 }
 
 .top-container {
@@ -48,13 +56,12 @@ a {
 }
 
 .middle-container {
-   margin-top: 50px 0px;
+   margin-top: 50px;
 }
 
 .bottom-container{
     background-color: #66bfbf;
-    padding: 60px 0px 60px 0px;
-    position: relative;
+    padding: 50px 0px 20px;
     margin-top: 100px;
 }
 
@@ -62,12 +69,10 @@ a {
     color: #11999e;
 }
 
-.name-tag {
+.copyright {
     color: #eaf6f6;
-}
-
-.contact-me {
-    line-height: 3;
+    font-size: 0.75rem;
+    padding: 20px 0px;
 }
 
 .skill-row {
@@ -79,6 +84,11 @@ a {
 .intro {
     width: 60%;
     margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 .bottom-cloud {
@@ -126,7 +136,7 @@ a {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
